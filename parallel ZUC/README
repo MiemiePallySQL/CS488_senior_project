@@ -1,0 +1,16 @@
+This is the parallel version of ZUC random number generator.
+Download all files, in the correct directory, run:
+
+$ make
+$ ./prog_p
+
+and then follow the prompts to input the seed value and the amount of random numbers to generate. For example,
+
+$ Enter key (16 symbols only):
+>> 0000000000000000
+$ Enter key stream size:
+>> 4
+$ Enter the number of processes:
+>> 2
+
+Credit: ZUC.h and ZUC.cpp are contributions from https://www.gsma.com/aboutus/wp-content/uploads/2014/12/eea3eia3zucv16.pdf
