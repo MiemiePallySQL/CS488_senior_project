@@ -1,0 +1,19 @@
+This is the non-parallel version of ZUC random number generator.
+Download all files, in the correct directory, run:
+
+$ make
+$ ./prog
+
+and then follow the prompts to input the seed value and the amount of random numbers to generate. For example,
+
+$ Enter key (16 symbols only):
+>> 0000000000000000
+$ Enter key stream size:
+>> 3 
+Generated key stream:
+
+0	0x2673174300
+1	0x35655644335
+2	0x2234455322
+
+Credit: ZUC.h and ZUC.cpp are contributions from 
