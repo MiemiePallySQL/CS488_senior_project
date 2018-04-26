@@ -1,10 +1,9 @@
-
 CC=g++
 CFLAGS=-c -Wall
 
-SOURCES= ZUC.cpp zuc.cpp
+SOURCES= ZUC.cpp main.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE=prog
+EXECUTABLE=prog_p
 
 all: $(SOURCES) $(EXECUTABLE) clean
 
